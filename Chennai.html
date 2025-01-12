@@ -1,52 +1,65 @@
-<HTML>
-<HEAD>
-<TITLE> Chennai </TITLE>
-</HEAD>
-<BODY bgcolor="green">
-<style>
-body {
-  background-image: url('https://images.newindianexpress.com/uploads/user/imagelibrary/2021/10/1/w1200X800/Unauthorised_buildings.jpg');
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size:100% 100%;
-}
-</style>
-<B> <U> <CENTER> Chennai </CENTER> </U> </B>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chennai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
 
+        #content {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
 
-<P> Chennai which is formely called as Madras is also a metropolitian city located in Tamil Nadu which is in South India. The place has similar climate as Mumbai since it is also a city located on the coastal side. The only difference between Mumbai and Chennai is that Chennai is located on the eastern coast of India and Mumbai on the western coast of India. The climate is similar to Mumbai. It has the hot and humid climate but one difference is that it is also a tropical climate which means that it can rain anytime which may bring relief to a hot climate but there is still lot of humidity. The language spoken in Chennai is Tamil. It was made as a city by the year of 1639. </P>
-<P> If you want to travel to Chennai by Air India then it will take 2 hours and 5 minutes but if you are traviling by train then it willtake a little longer time. If you are going by CSMT Chennai Express then it will take 22 hours. 
-<BR> If you are going by plane to Chennai then here is the link- <BR> <a href="https://travel.airindia.in/booking/availability/0"> Travelling to Chennai by plane </a> <BR >  but if you are going by train then here is the link- <BR> <a href="https://railways.makemytrip.com/railways/listing?classCode=&className=All%20Classes&date=20230605&destCity=Chennai&destStn=MAS&srcCity=Mumbai&srcStn=LTT&trainNumber=11073"> Travelling Chennai by train </a> </P>
-<P> The best time in Chennai is much similar to the best time in Mumbai and that is November to February. Note that Chennai will have heavy rains so it is good enough to carry an umbrella during the best time. The other months like the time from March to October is not the best time to visit Chennai is because during March to May it can get very hot and very humid like Mumbai. The monsoon months that is from June to October are characterized by very heavy rainfall which will lead to a problem visiting that place so that is why the best time is November to February. </P>
-<P> There are many tourist places to visit in Chennai. Some are-
-1. Marina Beach- Just like the Juhu Beach in Mumbai. Marina Beach is also a beach which is located in Chennai. The beach is a sandy type beach which was developed in the year of 1889. During the summers 15000 to 20000 people visit the Marina Beach to enjoy the cool breeze there. Usually, 50000 of the people visit this beach everyday. One thing about this is that bathing and swimming is legally prohibited due to its danger of the water electric shock. The sea waves of Marina Beach is very strong. There are 2 swimming pools in Marina Beach-
-<OL type="a">
-<LI> Anna Swimming Pool
-<LI> Marina Swimming Pool 
-</OL>
-Many sports are being played like Volleyball, Football, Fishing and many other fun sports except Cricket. Cricket got banned 11 years ago because of the traffic in Chennai. 
-There are many statues in Marina Beach like the Kamaraj Statue.  
-2. Kapaleeswarar Temple- This temple is a Hindu temple which explains us about the holy shrine of Lord Shive. It was built by the mighty Pallavas but was destroyed by the Portugese explores but then it was again rebuilt during the era of Vijaynagara. It is located in Mylapore which is in Chennai. The architecture style is a Dravidian architecture. Many festivals are celebrated in this temple like The Panguni Peruvila (Spring festival) and Arupathimoovar festival. </P>
-<P> Many other places to visit- 
-<OL type="a">
-<LI> Guindy National Park
-<LI> Express Avenue
-<LI> Arignar Anna Zoological Park 
-</OL>
-</P>
-Sources-
-<BR> <a href="https://en.wikipedia.org/wiki/Kapaleeshwarar_Temple"> Kapaleeshwar Temple </a>
-<BR> <a href="https://en.wikipedia.org/wiki/Marina_Beach"> Marina Beach </a> 
-<BR><a href="https://en.wikipedia.org/wiki/Howrah_Bridge"> Howrah Bridge </a> 
-<div class="row" style="display: flex">
-   </div>
-    <div class="column" style="flex: 33.33%; padding: 5px">
-        <img src="https://queenoftreasures.files.wordpress.com/2021/10/chennai-ocean.jpg"style="width:50%">
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .theme-buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Chennai</h1>
+        <p>
+            Chennai, formerly called Madras, is a metropolitan city located in Tamil Nadu, South India. It has a coastal climate similar to Mumbai, with hot and humid weather. However, Chennai lies on the eastern coast, unlike Mumbai, which is on the western coast.
+        </p>
+        <p>
+            Chennai offers many tourist attractions, including Marina Beach and Kapaleeswarar Temple. The best time to visit is from November to February to avoid the heavy rains and high humidity of other months.
+        </p>
     </div>
-    <div class="column" style="flex: 33.33%; padding: 5px">
-        <img src=""https://www.tamilnadutourism.com/images/chennai/card/kapaleeshwarar-temple.jpg"style="width:50%">
-    </div>
-</div>
-</BODY>
-</HTML> 
 
+    <div class="theme-buttons">
+        <button onclick="makeLight()">Light Theme</button>
+        <button onclick="makeDark()">Dark Theme</button>
+    </div>
+
+    <script>
+        function makeLight() {
+            document.getElementById('content').style.backgroundColor = 'white';
+            document.getElementById('content').style.color = 'black';
+        }
+
+        function makeDark() {
+            document.getElementById('content').style.backgroundColor = 'black';
+            document.getElementById('content').style.color = 'white';
+        }
+    </script>
+</body>
+</html>
