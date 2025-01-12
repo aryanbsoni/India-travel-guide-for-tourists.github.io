@@ -1,34 +1,70 @@
-<HTML>
-<HEAD>
-<TITLE> Other cities </TITLE>
-<B> <U> <CENTER> Other Cities </CENTER>  
-<BODY bgcolor="blue">
-<style>
-body {background-image: url("https://c8.alamy.com/comp/2H0XNGX/light-colorful-water-color-texture-background-2H0XNGX.jpg");
-       background-repeat:no repeat;
-        background-attachment: fixed;
-  background-size: 100% 100%;}
-
-</style>
- <div class="row" style="display: flex">
-   </div>
-    <div class="column" style="flex: 33.33%; padding: 5px">
-        <img src="https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/bfi_thumb/2018051780-olwe395v85ehpflrpuj0qo118fxqprdap33tfdsdlg.jpg"style="width:100%">
-  <BR> Laal Mahal 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Cities</title>
+    <style>
+        body {
+            background-image: url("https://c8.alamy.com/comp/2H0XNGX/light-colorful-water-color-texture-background-2H0XNGX.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: Arial, sans-serif;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            text-decoration: underline;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .column {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            height: 300px;
+        }
+        .column img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .column p {
+            font-size: 18px;
+            margin-top: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Other Cities</h1>
+    <div class="container">
+        <div class="column">
+            <img src="https://cdn.s3waas.gov.in/s3ffeabd223de0d4eacb9a3e6e53e5448d/uploads/bfi_thumb/2018051780-olwe395v85ehpflrpuj0qo118fxqprdap33tfdsdlg.jpg" alt="Laal Mahal">
+            <p>Laal Mahal</p>
+        </div>
+        <div class="column">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Rajwada_Palace%2C_Indore.jpg" alt="Rajwada Palace">
+            <p>Rajwada Palace</p>
+        </div>
+        <div class="column">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mysore_Palace_Morning.jpg" alt="Mysore Palace">
+            <p>Mysore Palace</p>
+        </div>
+        <div class="column">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6d/25/2c/dsc08346-largejpg.jpg?w=1200&h=1200&s=1" alt="Vaishnodevi Mandir Kullu">
+            <p>Vaishnodevi Mandir Kullu</p>
+        </div>
     </div>
-    <div class="column" style="flex: 33.33%; padding: 5px">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Rajwada_Palace%2C_Indore.jpg"style="width:100%">
-       <BR> Rajwada Palace 
-    </div>
-   <div class="column"style="flex:33.33%;padding:5px">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mysore_Palace_Morning.jpg"style="width:100%"> 
-    <BR> Mysore Palace
-     </div> 
-    <div class="column"style="flex:33.33%;padding:5px">
-   <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6d/25/2c/dsc08346-largejpg.jpg?w=1200&h=1200&s=1"style="width:100%">
-<BR> Vaishnodevi Mandir Kullu
-    </div>  
-    </div>  
-</BODY>
-</HTML> 
-
+</body>
+</html>
